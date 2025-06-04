@@ -1,0 +1,67 @@
+* {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+
+body {
+  background-color: rgb(48, 48, 48); 
+}
+
+.titulo {
+  background-color: aliceblue;
+  color: rgb(48, 48, 48);
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin: 0;
+  width: 80%;
+  height: 15%;
+  align-items: center;
+  justify-content:center ;
+  display: flex;
+}
+
+.nome {
+  color:aliceblue;
+  text-align: start;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+
+.subtitulo {
+  margin: 0;
+  color:aliceblue;
+  text-align: start;
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 5px;
+}
+
+.texto {
+  color:aliceblue;
+  text-align: end;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.sobremim {
+  text-align: end;
+}
+
+.image {
+  width: 100%;
+  /* border-radius: 0px 106px 0px; */
+}
+
+.meus-trabalhos p{
+  width: 100%;
+}
+
+
+.projeto {
+  font-size: 25px;
+}
