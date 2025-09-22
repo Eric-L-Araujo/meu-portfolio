@@ -4,12 +4,11 @@
 }
 
 
-
 body {
   background-color: rgb(48, 48, 48); 
 }
 
-/* Pseudo-elemento adicionando um content */
+/* Pseudo-elemento adicionando um content 
 main::after {
   content: '';
   position: fixed;
@@ -21,6 +20,41 @@ main::after {
   z-index: -1;
 
 }
+*/
+
+#cabecalho {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+ 
+} 
+
+#cabecalho .texto-cabecalho {
+  margin-right: 200px;
+
+}
+
+
+#nav-bar {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 70px;
+
+}
+
+
+.links {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+
 
 
 .titulo {
