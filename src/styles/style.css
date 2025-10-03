@@ -1,0 +1,357 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+:root {
+  --primary-color: #050c20;
+  --secondary-color: #5e17eb;
+  --tertiary-color: #0976e3;
+  --font-size-comum-text: 16px;
+  --font-size-titles: 22px;
+  --font-size-buttons: 16px;
+  --font-family-primary: 'Noto Sans', 'Arial';
+  --font-weight-titles: 700;
+  --font-weight-text: 700;
+}
+
+
+* {
+  font-family: var(--font-family-primary);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: var(--primary-color);
+}
+
+.purple-container {
+  width: 600px;
+  height: 718px;
+  margin-left: 71px;
+  background-color: var(--secondary-color);
+  position: absolute;
+  z-index: -1;
+}
+
+/* Pseudo-elemento adicionando um content 
+main::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 0;
+  min-height: 100vh;
+  width: 110vw;
+  background: linear-gradient(90deg, #1a1a1a 11%, rgb(24 21 21 / 0%) 50%, rgb(0 0 0 / 0%) 100%) no-repeat;
+  z-index: -1;
+
+}
+*/
+
+#cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+} 
+
+
+#nav-bar {
+padding-top: 15px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 100px;
+
+}
+
+#linha-horizontal {
+  position: absolute;
+  border: none;
+  height: 10px;
+  background-color: var(--secondary-color);
+  width: 32%;
+  opacity: 1;
+  margin-left: 49%;
+}
+
+.links {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: var(--font-size-buttons);
+  transition: 0.2s ease;
+}
+
+#nav-bar .links:hover{
+  color: #c844e2;
+}
+
+
+
+ /* HOME  */
+.container-home  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-texto .texto {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #ffffff;
+  font-size: var(--font-size-titles);
+}
+
+
+.home-texto .portfolio {
+  background-color: aliceblue;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  width: 50%;
+  height: 15%;
+  align-items: center;
+  justify-content:center;
+  display: flex;
+}
+
+
+.home-texto .nome {
+  color:aliceblue;
+  text-align: start;
+  font-size: 48px;
+}
+
+.home-texto .curso {
+  margin: 0;
+  color:aliceblue;
+  text-align: start;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.home-texto #botao-saiba-mais {
+  color: #ffffff;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 15px;
+  width: 150px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: var(--font-size-buttons);
+}
+
+.container-home .container-imagem {
+  max-height: 600px;
+  padding-left: 80px;
+  
+}
+
+.container-sobre-mim {
+  margin-top: 500px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.container-sobremim .imagem-sobremim {
+  max-height: 600px;
+
+
+}
+
+.container-foto-e-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 800px;
+}
+
+.container-sobre-mim .container-foto-e-texto .minha-foto {
+  max-width: 50%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+}
+
+.container-foto-e-texto .titulo-sobremim {
+  font-size: var(--font-size-titles);
+  font-weight: var(--font-weight-text);
+  color: aliceblue;
+}
+
+.container-foto-e-texto .texto {
+  color: #fff;
+  padding: 10px;
+  font-size: var(--font-size-comum-text);
+  text-align: justify;
+}
+
+
+.container-contato .redes-sociais  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 800px;
+}
+.texto {
+  font-size: var(--font-size-comum-text);
+  color: #fff;
+}
+
+.titulo-contato {
+  font-size: var(--font-size-titles);
+}
+.contato .formulario-contato {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 0px;
+}
+
+
+/* Faz com que o label com a classe "sr-only" seja ocultado, mas continua sendo lido por leitores de tela, de forma acessível */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.formulario-contato .input-campo {
+  background-color: transparent;
+  font-size: var(--font-size-comum-text);
+  color: #ffffff;
+  margin: 10px 0px;
+  width: 500px;
+  border: none;
+  height: 50px;
+  text-align: start;
+  border-bottom: 2px solid #a33ed1;
+  outline: none;
+  padding: 6px 4px; 
+}
+
+.formulario-contato .textarea {
+  padding: 6px 4px; 
+  background-color: #fff;
+  color: #050c20;
+  border: 2px solid #a33ed1;
+  text-align: start;
+  height: 100px;
+}
+
+
+.formulario-contato .input-campo:focus {
+  border-bottom-color: #f5d2c7; /* muda de cor quando clica */
+}
+
+.formulario-contato .botao-enviar {
+  color: #ffffff;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 15px;
+  width: 150px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-size: var(--font-size-buttons);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.formulario-contato .botao-enviar:hover {
+  background-color: #a33ed1;
+}
+
+
+.redes-sociais .formulario-contato
+
+.texto .titulo-contato
+
+.input-campo
+
+.botao-enviar
+
+
+/* .blue-container {
+  width: 600px;
+  height: 718px;
+  margin-left: 671px;
+  background-color: var(--tertiary-color);
+  position: absolute;
+  z-index: -1;
+} */
+
+
+
+/* 
+img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease; 
+}
+
+.image {
+  transition: transform 0.3s ease; /* aplica suavidade para qualquer transformação 
+  width: 100%;
+  border-radius: 25px;
+} */
+/* 
+.first-image {
+    width: 100%;
+  border-radius: 0px 106px 0px;
+}
+
+.meus-trabalhos p{
+  width: 100%;
+}
+
+
+.projeto {
+  font-size: 25px;
+}
+
+.espaco {
+  margin-top:  40px;
+} */
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0px;
+  padding: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(68, 68, 255);
+}

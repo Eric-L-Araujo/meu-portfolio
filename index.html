@@ -4,64 +4,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-  <link rel="stylesheet" href="src/style/style.css">
-  <link rel="shortcut icon" href="src/img/pasta.ico" type="image/x-icon">
+  <link rel="stylesheet" href="src/styles/style.css">
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+  <link rel="stylesheet" href="src/styles/card-slider.css">
   <title>Meu portfólio</title>
 </head>
 
 <body>
-  <div class="purple-container"></div>
+  <!-- <div class="purple-container"></div> -->
   <header id="cabecalho">
     <nav id="nav-bar">
       <a href="#" class="links">Home</a>
-      <a href="#" class="links">About</a>
-      <a href="#" class="links">Projects</a>
-      <a href="#" class="links">Contact</a>
+      <a href="#container-sobre-mim" class="links">Sobre mim</a>
+      <a href="#container-projetos" class="links">Projetos</a>
+      <a href="#container-contato" class="links">Contato</a>
     </nav>
   </header>
   <main>
-    <hr id="linha-horizontal">
-    <div class="container d-flex align-items-center justify-content-start" style="height: 100vh;">
-      <div class="row">
-        <div class="col">
-          <p class="titulo-portfolio">Portfólio</p>
-          <!-- <h1 class="titulo">PORTFOLIO</h1> -->
-          <p class="texto-inicio">Olá, me chamo</p>
-          <p class="meu-nome">ERIC ARAUJO</p>
-          <p class="meu-curso">Análise e desenvolvimento de sistemas</p>
-          <a href="/index.html#sobre-mim" id="botao-saiba-mais">Saiba mais</a>
-        </div>
+    <!-- Linha debaixo dos menus -->
+    <!-- <hr id="linha-horizontal"> -->
+
+    <!-- Home da página -->
+    <section class="container-home">
+      <div class="home-texto">
+        <p class="texto portfolio">Portfólio</p>
+        <p class="texto">Olá, me chamo</p>
+        <p class="texto nome">ERIC ARAUJO</p>
+        <p class="texto curso">Análise e desenvolvimento de sistemas</p>
+        <a href="/index.html#container-sobre-mim" id="botao-saiba-mais">Saiba mais</a>
       </div>
-      <div class="row">
-        <img src="/src/img/figura-do-home.png" alt="" id="figura-do-home">
+      <div class="container-imagem">
+        <img src="/src/img/figura-do-home.png" alt="" class="imagem-home">
       </div>
-    </div>
+    </section>
+    
     <div class="blue-container"></div>
-    <div class="container d-flex align-items-center justify-content-end">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="/src/img/figura-do-sobre-mim.png" alt="" id="figura-do-sobre-mim">
+
+    <!-- Sessao "Sobre mim" da página -->
+    <div class="container-sobre-mim" id="container-sobre-mim">
+        <div class="container-imagem">
+          <img src="/src/img/figura-do-sobre-mim.png" alt="" class="imagem-sobremim">
         </div>
-        <div class="col-md-6" id="sobre-mim">
-          <img src="/src/img/ilustracao.jpg" alt="" id="minha-foto">
-          <p class="subtitulo-sobremim">Sobre mim</p>
-          <p class="texto-sobremim" >
-            My name is Eric, I live in Rio de janeiro, Brazil and one of my hobbies is coding websites. I’m a student of
-            Systems Analysis and Development at UNISUAM. For while, I’m studying web systems and building academic
-            projects.
+
+        <div class="container-foto-e-texto">
+          <img src="/src/img/ilustracao.jpg" alt="" class="minha-foto">
+          <h2 class="texto titulo-sobremim">Sobre-mim</h2>
+          <p class="texto">
+            Sou estudante de Análise e Desenvolvimento de Sistemas na UNISUAM, atualmente no 3º período. Tenho interesse em desenvolvimento web, banco de dados e UI/UX, e estou construindo minha trajetória na área de tecnologia através de projetos acadêmicos e pessoais.
           </p>
         </div>
-      </div>
     </div>
-    <div class="container d-flex flex-column align-items-center justify-content-center">
-      <div class="row g-6">
-        <div class="col">
-          <p class="nome">MY PROJECTS</p>
-        </div>
-      </div>
-      <div class="row g-6">
+
+      <!-- <div class="row g-6">
         <div class="col-12 col-md-4">
           <p class="nome projeto">Projeto Ecopoint</p>
           <a href="https://github.com/Eric-L-Araujo/ecoPoint/tree/main"><img src="img/ecopoint-foto.png" alt="" class="img-fluid image"></a>
@@ -86,30 +82,121 @@
           <p class="nome projeto">Projeto Frieren</p>
           <a href="https://eric-l-araujo.github.io/projeto-frieren/"><img src="img/frieren-foto.png" alt="" class="img-fluid image"></a>
         </div>
+      </div> -->
+      <!-- <div class="espaco"></div> -->
+
+    <!-- CARD SLIDER -->
+    <div class="container swiper" id="container-projetos">
+      <div class="card-wrapper">
+        <ul class="card-list swiper-wrapper">
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
+              <p class="badge">Projeto 1</p>
+              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+              <button class="card-button material-symbols-rounded">arrow_forward</button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
+              <p class="badge">Projeto 2</p>
+              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+              <button class=" card-button material-symbols-rounded">arrow_forward</button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
+              <p class="badge">Projeto 3</p>
+              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+              <button class=" card-button material-symbols-rounded">arrow_forward</button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
+              <p class="badge">Projeto 4</p>
+              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+              <button class=" card-button material-symbols-rounded">arrow_forward</button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
+              <p class="badge">Projeto 5</p>
+              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+              <button class=" card-button material-symbols-rounded">arrow_forward</button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
+              <p class="badge">Projeto 6</p>
+              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+              <button class=" card-button material-symbols-rounded">arrow_forward</button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
+              <p class="badge">Projeto 7</p>
+              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+              <button class=" card-button material-symbols-rounded">arrow_forward</button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
+              <p class="badge">Projeto 8</p>
+              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+              <button class=" card-button material-symbols-rounded">arrow_forward</button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
+              <p class="badge">Projeto 9</p>
+              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+              <button class=" card-button material-symbols-rounded">arrow_forward</button>
+            </a>
+          </li>
+        </ul>
+
+        <div class="swiper-slide-button swiper-pagination"></div>
+        <div class="swiper-slide-button swiper-button-prev"></div>
+        <div class="swiper-slide-button swiper-button-next"></div>
       </div>
-      <div class="espaco"></div>
     </div>
+
+    <div class="container-contato" id="container-contato">
+      <div class="redes-sociais">
+        <h2 class="texto titulo-contato">Redes Sociais</h2>
+          <!-- Importar ícones -->
+        <p class="texto">Me envie uma mensagem!</p>
+      </div>
+      <div class="contato">
+        <form action="#" id="formulario-contato" class="formulario-contato">
+          <label for="nome" class="sr-only">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Nome" class="input-campo ">
+          <label for="email" class="sr-only">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" class="input-campo">
+          <label for="mensagem" class="sr-only">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Mensagem" class="input-campo textarea"></textarea>
+          <button type="submit" class="botao-enviar">Enviar</button>
+        </form>
+      </div>
+    </div>
+    
   </main>
+  
   <footer class="author-info">
     | Coded by <a href="https://github.com/Eric-L-Araujo">Eric Araujo</a> |
   </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="src/scripts/script.js"></script>
+  
 </body>
 
 </html>
