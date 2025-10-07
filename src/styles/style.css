@@ -161,8 +161,12 @@ gap: 100px;
   
 }
 
+.container-imagem .imagem-home {
+  max-width: 400px;
+}
+
 .container-sobre-mim {
-  margin-top: 500px;
+  margin-top: 100px;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -172,8 +176,8 @@ gap: 100px;
 }
 
 
-.container-sobremim .imagem-sobremim {
-  max-height: 600px;
+.container-imagem .imagem-sobremim {
+  max-width: 400px;
 
 
 }
@@ -201,10 +205,19 @@ gap: 100px;
 
 .container-foto-e-texto .texto {
   color: #fff;
-  padding: 10px;
+  padding: 11px 100px;
   font-size: var(--font-size-comum-text);
   text-align: justify;
 }
+
+
+.titulo-projeto {
+  margin: 100px 0 0 0;
+  font-size: var(--font-size-titles);
+  color: #FFF;
+  text-align: center;
+}
+
 
 
 .container-contato .redes-sociais  {
@@ -212,16 +225,23 @@ gap: 100px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 800px;
+  margin-top: 100px;
 }
 .texto {
   font-size: var(--font-size-comum-text);
   color: #fff;
 }
 
+
 .titulo-contato {
   font-size: var(--font-size-titles);
+  text-align: center;
+  margin-bottom: 90px;
 }
+.msg {
+  text-align: center;
+}
+
 .contato .formulario-contato {
   display: flex;
   align-items: center;
