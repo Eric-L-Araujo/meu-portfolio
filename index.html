@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
   <link rel="stylesheet" href="src/styles/card-slider.css">
+  <script src="https://kit.fontawesome.com/0b684993df.js" crossorigin="anonymous"></script>
   <!-- Sessão de créditos:
     favicon: <a href="https://www.flaticon.com/free-icons/light-bulb" title="light bulb icons">Light bulb icons created by my-icon-studio - Flaticon</a> 
   -->
@@ -36,9 +37,12 @@
         <p class="texto curso">Análise e desenvolvimento de sistemas</p>
         <a href="/index.html#container-sobre-mim" id="botao-saiba-mais">Saiba mais</a>
       </div>
-      <div class="container-imagem">
+     
+      <picture class="container-imagem">
+        <source media="(min-width: 500px)" srcset="src/img/figura-do-home.png">
         <img src="/src/img/figura-do-home.png" alt="" class="imagem-home">
-      </div>
+      </picture>
+
     </section>
     
     <div class="blue-container"></div>
@@ -46,7 +50,7 @@
     <!-- Sessao "Sobre mim" da página -->
     <div class="container-sobre-mim" id="container-sobre-mim">
         <div class="container-imagem">
-          <img src="/src/img/figura-do-sobre-mim.png" alt="" class="imagem-sobremim">
+          <!-- <img src="/src/img/figura-do-sobre-mim.png" alt="" class="imagem-sobremim"> -->
         </div>
 
         <div class="container-foto-e-texto">
@@ -66,50 +70,50 @@
         <ul class="card-list swiper-wrapper">
           <li class="card-item swiper-slide">
             <a href="https://github.com/Eric-L-Araujo/ecoPoint" target="_blank" class="card-link">
-              <img src="src/img/ecopoint2.png" alt="Card Image" class="card-image">
-              <p class="badge">Projeto Ecopoint</p>
-              <h2 class="card-title">Um sistema web colaborativo desenvolvido para conectar usuários a pontos de coleta de materiais recicláveis, promovendo a sustentabilidade (...)</h2>
+              <img src="src/img/ecopoint3.png" alt="Card Image" class="card-image">
+              <p class="badge eco-point">Projeto Ecopoint</p>
+              <h2 class="card-title">Um sistema web colaborativo desenvolvido para conectar usuários a pontos de coleta de materiais recicláveis, incentivando a educação ambiental e promovendo a sustentabilidade por meio da tecnologia e da conscientização social.</h2>
               <button class="card-button material-symbols-rounded">arrow_forward</button>
               <!--<button class=""> Saiba mais</button>-->
             </a>
           </li>
           <li class="card-item swiper-slide">
-            <a href="#" class="card-link">
-              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
-              <p class="badge">Projeto InfoWeb</p>
-              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+            <a href="https://github.com/Eric-L-Araujo/Projeto-info-WEB" target="_blank"  class="card-link">
+              <img src="src/img/info-web.png" alt="Card Image" class="card-image">
+              <p class="badge info-web">Projeto InfoWeb</p>
+              <h2 class="card-title">Um website colaborativo voltado à conscientização digital, criado para auxiliar usuários mais vulneráveis a compreender e se proteger de ameaças online, por meio de um sistema didático, acessível e interativo com imagens e cards explicativos.</h2>
               <button class=" card-button material-symbols-rounded">arrow_forward</button>
             </a>
           </li>
           <li class="card-item swiper-slide">
-            <a href="#" class="card-link">
-              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
-              <p class="badge">Biblioteca da taverna</p>
-              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+            <a href="https://github.com/Eric-L-Araujo/Biblioteca-da-taverna/tree/main" target="_blank"  class="card-link">
+              <img src="src/img/biblioteca2.png" alt="Card Image" class="card-image">
+              <p class="badge biblioteca-taverna">Biblioteca da taverna</p>
+              <h2 class="card-title">Um website leve e acessível, criado para orientar novos jogadores de RPG de mesa. Reúne informações práticas, resumos de regras e guias introdutórios para ajudar aventureiros a se prepararem para suas primeiras jornadas em diversos universos.</h2>
               <button class=" card-button material-symbols-rounded">arrow_forward</button>
             </a>
           </li>
           <li class="card-item swiper-slide">
-            <a href="#" class="card-link">
-              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
-              <p class="badge">Projeto Frieren</p>
-              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+            <a href="https://github.com/Eric-L-Araujo/projeto-frieren/tree/main" target="_blank"  class="card-link">
+              <img src="src/img/frieren-foto-cortada.png" alt="Card Image" class="card-image">
+              <p class="badge frieren">Projeto Frieren</p>
+              <h2 class="card-title">Projeto desenvolvido durante o desafio “Semana do Zero ao Programador Contratado”, do Dev em Dobro. Inspirado no anime Frieren: Beyond Journey’s End, o site é totalmente responsivo e conta com um menu interativo que exibe personagens dinamicamente.</h2>
               <button class=" card-button material-symbols-rounded">arrow_forward</button>
             </a>
           </li>
           <li class="card-item swiper-slide">
-            <a href="#" class="card-link">
-              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
-              <p class="badge">Projeto To-do List</p>
-              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+            <a href="https://github.com/Eric-L-Araujo/lista-de-tarefas" target="_blank"  class="card-link">
+              <img src="src/img/to-do-image1.png" alt="Card Image" class="card-image">
+              <p class="badge to-do-list">Projeto To-do List</p>
+              <h2 class="card-title">Um website funcional de lista de tarefas com temática de galáxia, desenvolvido com tecnologias Front-End. Permite adicionar, editar e remover tarefas de forma prática, oferecendo uma interface simples e visualmente agradável ao usuário.</h2>
               <button class=" card-button material-symbols-rounded">arrow_forward</button>
             </a>
           </li>
           <li class="card-item swiper-slide">
-            <a href="#" class="card-link">
-              <img src="src/img/imagem-exemplo.png" alt="Card Image" class="card-image">
-              <p class="badge">Projeto "Elementa RPG"</p>
-              <h2 class="card-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, dolorem?</h2>
+            <a href="https://github.com/Eric-L-Araujo/Site-elementa-RPG/tree/main"  target="_blank" class="card-link">
+              <img src="src/img/elementa-rpg.png" alt="Card Image" class="card-image">
+              <p class="badge elementa-rpg">Projeto "Elementa RPG"</p>
+              <h2 class="card-title">Website oficial do universo Elementa RPG, ainda em desenvolvimento. Apresenta funcionalidades inspiradas no livro de regras, organizadas por meio de menus e submenus que facilitam a navegação e a consulta de informações do sistema.</h2>
               <button class=" card-button material-symbols-rounded">arrow_forward</button>
             </a>
           </li>
@@ -151,6 +155,12 @@
           Contato
         </h2>
           <!-- Importar ícones -->
+           <div class="icon-container">
+             <a href="https://www.linkedin.com/in/eric-araujox/" target="_blank"><i class="fa-brands fa-linkedin fa-3x" style="color: #ffffff;"></i></a>
+             <a href="https://github.com/Eric-L-Araujo" target="_blank"><i class="fa-brands fa-github fa-3x" style="color: #ffffff;"></i></a>
+             <a href="https://www.instagram.com/eric.araujo03/" target="_blank"><i class="fa-brands fa-instagram fa-3x" style="color: #ffffff;"></i></a>
+           </div>
+           
       </div>
       <!-- <p class="texto msg">Se preferir, me envie uma mensagem abaixo</p>
       <div class="contato">
@@ -169,10 +179,11 @@
   </main>
   
   <footer class="rodape author-info">
-    | Coded by <a href="https://github.com/Eric-L-Araujo">Eric Araujo</a> |
+    <p>Coded by <a href="https://github.com/Eric-L-Araujo">Eric Araujo</a></p>
     <p>Recursos utilizados:
       <a href="https://www.flaticon.com/free-icons/light-bulb" title="light bulb icons">Light bulb icons created by my-icon-studio - Flaticon</a>
     </p>
+
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>

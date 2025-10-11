@@ -1,11 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 html {
   scroll-behavior: smooth;
 }
-
 
 :root {
   --primary-color: #050c20;
@@ -63,13 +60,15 @@ main::after {
 } 
 
 
-#nav-bar {
+#cabecalho #nav-bar {
 padding-top: 15px;
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
-gap: 100px;
+gap: 30px;
+max-width: 100%;
+
 
 }
 
@@ -104,10 +103,13 @@ gap: 100px;
   justify-content: center;
 }
 
+.container-home .home-texto {
+  width: 100%;
+}
+
 .home-texto .texto {
   color: #fff;
   margin-top: 10px;
-  margin-bottom: 0;
   color: #ffffff;
   font-size: var(--font-size-titles);
 }
@@ -149,25 +151,28 @@ gap: 100px;
   border: none;
   border-radius: 50px;
   padding: 10px 15px;
-  width: 150px;
+  max-width: 150px;
   margin-top: 20px;
   text-decoration: none;
   font-size: var(--font-size-buttons);
 }
-
+/* 
 .container-home .container-imagem {
   max-height: 600px;
   padding-left: 80px;
   
-}
+} */
 
 .container-imagem .imagem-home {
-  max-width: 400px;
+  max-width: 100%;
+  display: flex;
+  margin: auto;
+  
+
 }
 
 .container-sobre-mim {
-  margin-top: 100px;
-  height: 100vh;
+  margin-top: 150px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -177,8 +182,9 @@ gap: 100px;
 
 
 .container-imagem .imagem-sobremim {
-  max-width: 400px;
-
+  max-width: 100%;
+  display: flex;
+  margin: auto;
 
 }
 
@@ -187,7 +193,9 @@ gap: 100px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  max-width: 800px;
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
 }
 
 .container-sobre-mim .container-foto-e-texto .minha-foto {
@@ -205,7 +213,6 @@ gap: 100px;
 
 .container-foto-e-texto .texto {
   color: #fff;
-  padding: 11px 100px;
   font-size: var(--font-size-comum-text);
   text-align: justify;
 }
@@ -236,17 +243,14 @@ gap: 100px;
 .titulo-contato {
   font-size: var(--font-size-titles);
   text-align: center;
-  margin-bottom: 90px;
-}
-.msg {
-  text-align: center;
+  margin: 30px 30px;
 }
 
-.contato .formulario-contato {
+.icon-container {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin: 30px 0px;
+  flex-direction: row;
+  margin-bottom: 50px;
+  gap: 30px;
 }
 
 
@@ -309,15 +313,6 @@ gap: 100px;
 }
 
 
-.redes-sociais .formulario-contato
-
-.texto .titulo-contato
-
-.input-campo
-
-.botao-enviar
-
-
 /* .blue-container {
   width: 600px;
   height: 718px;
@@ -359,19 +354,140 @@ img:hover {
   margin-top:  40px;
 } */
 
+.rodape {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(74, 7, 119);
+  width: 100%;
+  height: 200px;
+
+}
+
 .author-info {
   font-size: 14px;
   text-align: center;
-  margin: 20px 0px;
-  padding: 25px;
+  padding: 50px;
   color: rgb(255, 255, 255);
 }
 
 .author-info a {
   text-decoration: none;
+  color: #ffffff;
 }
 
 .link {
   text-decoration: none;
-  color: rgb(68, 68, 255);
+  color: rgb(255, 255, 255);
 }
+
+/* Até 828px fica bom, valores menores que esse fica horrível */
+
+@media screen and (max-width: 828px) {
+.container-home  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-texto .portfolio {
+  background-color: aliceblue;
+  color: var(--primary-color);
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 30%;
+  height: 5%;
+
+}
+
+.container-imagem .imagem-home {
+  max-width: 70%;
+  display: flex;
+  margin: auto;
+  
+
+}
+
+.home-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 30px 0px;
+}
+
+.container-sobre-mim {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+}
+
+
+.container-imagem .imagem-sobremim {
+  max-width: 70%;
+  display: flex;
+  margin: auto;
+
+}
+
+.container-foto-e-texto .texto {
+  color: #fff;
+  padding: 11px 50px;
+  font-size: var(--font-size-comum-text);
+  text-align: justify;
+}
+
+}
+
+
+
+@media screen and (max-width: 575px) {
+  #cabecalho {
+    background-color: #5f22c2;
+    padding: 5;
+  }
+
+
+  
+
+
+
+  #cabecalho #nav-bar {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%;
+  }
+
+  #cabecalho #nav-bar .links {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+
+  }
+
+  .home-texto .texto {
+    padding: 12px;
+    text-align: center;
+}
+
+.container-foto-e-texto .texto {
+  color: #fff;
+  padding: 11px 10px;
+  font-size: var(--font-size-comum-text);
+  text-align: justify;
+}
+
+}
+
+
+
