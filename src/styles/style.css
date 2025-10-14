@@ -358,7 +358,6 @@ img:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(74, 7, 119);
   width: 100%;
   height: 200px;
 
@@ -382,7 +381,7 @@ img:hover {
 }
 
 /* Até 828px fica bom, valores menores que esse fica horrível */
-
+/* RESPONSIVIDADE */
 @media screen and (max-width: 828px) {
 .container-home  {
   display: flex;
