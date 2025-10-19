@@ -1,5 +1,5 @@
 # 💻 Meu portfólio
-<img width="561" height="812" alt="figura-do-home" src="https://github.com/user-attachments/assets/15ae52a4-231d-4706-96b7-b498fc6193b0" />
+<img width="100" height="100" alt="figura-do-home" src="https://github.com/user-attachments/assets/15ae52a4-231d-4706-96b7-b498fc6193b0" />
 
 Bem-vindo(a) ao meu portfólio pessoal!  
 Este site foi desenvolvido para apresentar minha trajetória na área de **Análise e Desenvolvimento de Sistemas**, meus **projetos acadêmicos e pessoais**, e servir como um espaço para contato profissional.
