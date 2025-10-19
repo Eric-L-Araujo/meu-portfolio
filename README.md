@@ -1,4 +1,4 @@
-# 💻 Portfólio de Eric Araujo
+# 💻 Meu portfólio
 
 Bem-vindo(a) ao meu portfólio pessoal!  
 Este site foi desenvolvido para apresentar minha trajetória na área de **Análise e Desenvolvimento de Sistemas**, meus **projetos acadêmicos e pessoais**, e servir como um espaço para contato profissional.
