@@ -11,7 +11,6 @@ Este site foi desenvolvido para apresentar minha trajetória na área de **Anál
 
 
 
----
 <h2 align="left">👨‍💻 Sobre mim</h2>
 
 Sou estudante de **Análise e Desenvolvimento de Sistemas** na **UNISUAM**, atualmente cursando o **3º período**.  
