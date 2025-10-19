@@ -71,7 +71,7 @@ max-width: 100%;
 .links {
   text-decoration: none;
   color: #ffffff;
-  font-size: var(--font-size-buttons);
+  font-size: 20px;
   transition: 0.2s ease;
 }
 
@@ -79,6 +79,14 @@ max-width: 100%;
   color: #c844e2;
 }
 
+#hr-home {
+  display: flex;
+  justify-self: center;
+  margin: 10px 0px 0px 0px;
+  border: 2px solid #a33ed1;
+  width: 50%;
+
+}
 
 
  /* HOME  */
@@ -90,7 +98,7 @@ max-width: 100%;
 }
 
 .container-home .home-texto {
-  width: 100%;
+  width: 60%;
 }
 
 .home-texto .texto {
@@ -158,12 +166,11 @@ max-width: 100%;
 }
 
 .container-sobre-mim {
-  margin-top: 150px;
+  margin: 200px 0px 200px 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-
 }
 
 
@@ -181,20 +188,21 @@ max-width: 100%;
   flex-direction: column;
   max-width: 600px;
   margin: auto;
+  gap: 15px;
   padding: 30px;
 }
 
 .container-sobre-mim .container-foto-e-texto .minha-foto {
-  max-width: 30%;
+  max-width: 35%;
   height: auto;
   border-radius: 50%;
   display: block;
 }
 
 .container-foto-e-texto .titulo-sobremim {
-  font-size: var(--font-size-titles);
   font-weight: var(--font-weight-text);
   color: aliceblue;
+  font-size: var(--font-size-titles);
 }
 
 .container-foto-e-texto .texto {
@@ -298,6 +306,44 @@ max-width: 100%;
   background-color: #a33ed1;
 }
 
+#hr-footer {
+  margin: 10px 0px 0px 0px;
+  border: 1px solid #a33ed1;
+}
+
+.rodape {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.rodape ul li {
+  margin-top: 10px;
+  list-style-type: square;
+  color: #FFF;
+}
+
+
+.rodape h1 {
+  color: #FFF;
+  font-size: var(--font-size-titles);
+}
+
+.rodape p {
+  color: #FFF;
+ 
+}
+
+.rodape a {
+  color: #a62cd6;
+  text-decoration: none;
+} 
+
+
+
+
 /* Até 828px fica bom, valores menores que esse fica horrível */
 /* RESPONSIVIDADE */
 @media screen and (max-width: 828px) {
@@ -336,7 +382,7 @@ max-width: 100%;
 }
 
 .container-sobre-mim {
-  margin-top: 150px;
+  margin: 200px 0px 200px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -370,11 +416,10 @@ max-width: 100%;
     padding: 5px;
   }
 
-
+  .home-texto .portfolio {
+  width: 60%;
+  }
   
-
-
-
   #cabecalho #nav-bar {
     padding: 10px;
     display: flex;
@@ -395,13 +440,21 @@ max-width: 100%;
   .home-texto .texto {
     padding: 12px;
     text-align: center;
-}
+  }
 
-.container-foto-e-texto .texto {
-  color: #fff;
-  padding: 11px 10px;
-  font-size: var(--font-size-comum-text);
-  text-align: justify;
+  .container-sobre-mim {
+  margin: 200px 0px 200px 0px;
+  }
+
+  .container-foto-e-texto .texto {
+    color: #fff;
+    padding: 11px 10px;
+    font-size: var(--font-size-comum-text);
+    text-align: justify;
+  }
+
+  #hr-home {
+  display: none;
 }
 
 }
