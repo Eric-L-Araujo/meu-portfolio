@@ -7,8 +7,6 @@ Este site foi desenvolvido para apresentar minha trajetória na área de **Anál
 🌐 **Acesse o portfólio online:**  
 👉 [eric-l-araujo.github.io/meu-portfolio](https://eric-l-araujo.github.io/meu-portfolio)
 
----
-
 ## 👨‍💻 Sobre mim
 
 Sou estudante de **Análise e Desenvolvimento de Sistemas** na **UNISUAM**, atualmente cursando o **3º período**.  
