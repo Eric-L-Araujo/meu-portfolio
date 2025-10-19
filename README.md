@@ -7,7 +7,7 @@ Este site foi desenvolvido para apresentar minha trajetória na área de **Anál
 🌐 **Acesse o portfólio online:**  
 👉 [eric-l-araujo.github.io/meu-portfolio](https://eric-l-araujo.github.io/meu-portfolio)
 
-<h2 align="left">👨‍💻 Sobre mim</h2>
+  <h2 align="left">👨‍💻 Sobre mim</h2>
 
 Sou estudante de **Análise e Desenvolvimento de Sistemas** na **UNISUAM**, atualmente cursando o **3º período**.  
 Tenho interesse nas áreas de **desenvolvimento web**, **banco de dados** e **UI/UX design**, e estou construindo minha jornada na tecnologia através de **projetos práticos** que unem criatividade e técnica.
