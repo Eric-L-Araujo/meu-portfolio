@@ -34,8 +34,8 @@ Cada um deles reflete meu crescimento como desenvolvedor e minha vontade de apre
 
 ## 📬 Contato
 
-📧 **Email:** *adicione aqui seu email profissional*  
-💼 **LinkedIn:** *adicione aqui seu perfil, se desejar*  
+📧 **Email:** *ericaraujo77@hotmail.com*  
+💼 **LinkedIn:** *[Eric Araujo](https://www.linkedin.com/in/eric-araujox/)*  
 🐙 **GitHub:** [@eric-l-araujo](https://github.com/eric-l-araujo)
 
 ---
