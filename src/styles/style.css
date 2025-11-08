@@ -81,11 +81,6 @@ body {
 }
 
 
-
-#cabecalho .trilho {
-  
-}
-
 #cabecalho #title-theme {
   font-size: 20px;
       min-width: 125px;
@@ -176,6 +171,11 @@ body.dark #cabecalho .links {
 
 body.dark  {
     background-color: #050c20;
+    
+}
+
+body.dark .texto {
+  color: #fff;
 }
 
 body.dark h1 {
@@ -326,10 +326,11 @@ body.dark .imagem-home {
   justify-content: center;
   flex-direction: column;
   margin-top: 100px;
+  background-color: #a27bf0;
 }
 .texto {
   font-size: var(--font-size-comum-text);
-  color: #fff;
+  color: var(--light-theme-title-text);
 }
 
 
@@ -337,6 +338,7 @@ body.dark .imagem-home {
   font-size: var(--font-size-titles);
   text-align: center;
   margin: 30px 30px;
+  color: #fff;
 }
 
 .icon-container {
@@ -421,7 +423,7 @@ body.dark .imagem-home {
 .rodape ul li {
   margin-top: 10px;
   list-style-type: square;
-  color: #FFF;
+  color: var(---light-theme-comum-text);
 }
 
 
@@ -431,7 +433,7 @@ body.dark .imagem-home {
 }
 
 .rodape p {
-  color: #FFF;
+  color: var(---light-theme-comum-text);
  
 }
 
