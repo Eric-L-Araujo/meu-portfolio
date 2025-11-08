@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+
+:root {
+    --light-theme-bg-color: #fff;
+    --light-theme-title-text: #6e61cf;
+    --dark-theme-title-text: #ffffff;
+    --light-theme-menu-color: #a27bf0;
+}
+
+h1 {
+    color: var(--light-theme-title-text);
+}
+
+.trilho {
+    width: 350px;
+    height: 150px;
+    background-color: #bcbcbc;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.trilho .indicador {
+    width: 150px;
+    height: 150px;
+    background-color: #f6f6f6;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: 0.4s;
+}
+
+.trilho.dark {
+    background-color: #cab0ff;
+}
+
+/* Precisam existir juntas, logo, não adicione expaços */
+.trilho.dark .indicador {
+    left: 200px;
+    background-color: #5e17eb;
+}
+
+body.dark  {
+    background-color: #050c20;
+}
+
+body.dark h1 {
+    color: var(--dark-theme-title-text);
+}
