@@ -261,6 +261,7 @@ body.dark .imagem-home {
   height: auto;
   border-radius: 50%;
   display: block;
+  position: relative;
 }
 
 .container-foto-e-texto .titulo-sobremim {
