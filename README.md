@@ -8,7 +8,8 @@
         🌐 <a href="https://eric-l-araujo.github.io/meu-portfolio">Acesse o portfólio online</a>
       </td>
       <td width="40%" align="center">
-        <img src="https://eric-l-araujo.github.io/meu-portfolio/img/foto-eric.png" width="200px" style="border-radius: 12px;" alt="Foto de Eric Araujo"/>
+          <img width="561" height="812" alt="dark-theme-ilustration-Photoroom" src="https://github.com/user-attachments/assets/64168cfd-b646-414c-8377-2c3b4fbf3630" />
+          <img src="https://eric-l-araujo.github.io/meu-portfolio/img/foto-eric.png" width="200px" style="border-radius: 12px;" alt="Foto de Eric Araujo"/>
       </td>
     </tr>
   </table>
