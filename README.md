@@ -2,20 +2,17 @@
   <table>
     <tr>
       <td width="60%">
-        <h1>💻 Portfólio de Eric Araujo</h1>
+        <h1>💻 Meu Portfólio </h1>
         <p>Bem-vindo(a) ao meu portfólio pessoal!  
         Este site foi desenvolvido para apresentar minha trajetória na área de <b>Análise e Desenvolvimento de Sistemas</b>, meus <b>projetos acadêmicos e pessoais</b>, e servir como um espaço para contato profissional.</p>
         🌐 <a href="https://eric-l-araujo.github.io/meu-portfolio">Acesse o portfólio online</a>
       </td>
       <td width="40%" align="center">
           <img width="561" height="812" alt="dark-theme-ilustration-Photoroom" src="https://github.com/user-attachments/assets/64168cfd-b646-414c-8377-2c3b4fbf3630" />
-          <img src="https://eric-l-araujo.github.io/meu-portfolio/img/foto-eric.png" width="200px" style="border-radius: 12px;" alt="Foto de Eric Araujo"/>
       </td>
     </tr>
   </table>
 </div>
-
----
 
 <h2>👨‍💻 Sobre mim</h2>
 
@@ -43,9 +40,9 @@ Cada um deles reflete meu crescimento como desenvolvedor e minha vontade de apre
 
 <h2>📬 Contato</h2>
 
-📧 <b>Email:</b> *adicione aqui seu email profissional*  
-💼 <b>LinkedIn:</b> *adicione aqui seu perfil, se desejar*  
-🐙 <b>GitHub:</b> [@eric-l-araujo](https://github.com/eric-l-araujo)
+- 📧 <b>Email:</b> ericaraujo77@hotmail.com
+- 💼 <b>LinkedIn:</b> [Eric Araujo](https://www.linkedin.com/in/eric-araujox/)
+- 🐙 <b>GitHub:</b> [@eric-l-araujo](https://github.com/eric-l-araujo)
 
 ---
 
